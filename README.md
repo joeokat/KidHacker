@@ -7,6 +7,7 @@ Expert in Professional IT Services with a keen interest in building UIs with Fig
 I try to keep up with best design practices, and always looking for new things to learn. I am available for any kind of job opportunity that suits my current skills.
 
 ## Create Next App
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## To Getting Started
