@@ -1,0 +1,32 @@
+{
+  "name": "UI/UX JoeOkat",
+  "short_name": "UI/UX JoeOkat",
+  "appid": "app.vercel.joeokat",
+  "description": "🎯 I help businesses ship apps to market fast",
+  "categories": [ "business", "education", "social", "news" ],
+  "lang": "en",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#101010",
+  "background_color": "#161616",
+  
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+  
+}
