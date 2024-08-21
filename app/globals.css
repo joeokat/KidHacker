@@ -16,19 +16,12 @@ main {
 }
 
 /*NAV STYLES*/
-nav {
-  @apply 
-  flex items-center justify-between my-10 
-  fixed top-0 left-0 w-full z-10 
-  border-b-2 border-gray-200 bg-myblue;
-  
-  transition: background-color 0.3s ease;
-}
+
 nav a, nav span {
-  @apply text-gray-500;
+  @apply text-white;
 }
 nav a:hover {
-  @apply text-primary;
+  @apply text-mygreen;
 }
 
 /*BUTTON STYLES*/
