@@ -6,6 +6,8 @@ import Socials from "../components/Socials";
 import { Services } from "../components/Services";
 import { SpartanAds } from "../components/SpartanAds";
 import { Work } from "../components/Work";
+import { Portfolio } from "../components/Portfolio";
+import { PricingPlans } from "../components/PricingPlans";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
             <Profile />
             <Work />
             <Services />
+            <Portfolio />
+            <PricingPlans />
             <SpartanAds />
             <Socials />    
         </>

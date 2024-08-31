@@ -14,7 +14,8 @@ const PricingCard = ({ tag, tagClass, title, service, price, features }) => {
   };
 
   return (
-    <div className={`details--card ${tagClass}`}>
+    <div className="center">
+      <div className={`details--card ${tagClass}`}>
       <div className='tag'>{tag}</div>
       <h3>{title}</h3>
       <p><strong>{price}</strong> /Gig</p>
@@ -22,7 +23,8 @@ const PricingCard = ({ tag, tagClass, title, service, price, features }) => {
       <hr />
       <div>{featureList}</div>
       <button onClick={openWhatsApp}>Choose Plan</button>
-    </div>
+      </div>
+    </div>    
   );
 };
 
