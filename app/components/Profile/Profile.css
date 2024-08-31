@@ -1,18 +1,26 @@
+:root {
+   --white: #fafafa,
+   --green: #48DF8E,
+}
+
+.profile-container{
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+}
 
 .profile-image {
-   display: block;
+   /* display: block; */
    margin: 10px auto 0;
    padding-top: 1rem;
-   height: 157px;
-   border-radius: 50%;
-    
+   border-radius: 50px;
 }
 
 .profile-name {
    display: flex;  
    justify-content: center;
    align-items: center;
-
+   gap: 8px;
    font-size: 16px;
    font-weight: 700;
    margin: 20px auto;

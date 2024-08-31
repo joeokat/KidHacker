@@ -8,7 +8,7 @@ import EmailBtn from '../Buttons/EmailBtn'
 
 export default function Profile() {
   return (
-    <div>
+    <div className="profile-container">
       <Image
         src='/assets/profile.png'
         alt="Profile Picture"

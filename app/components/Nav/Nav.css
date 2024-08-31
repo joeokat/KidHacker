@@ -1,17 +1,17 @@
-.nav--container {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 120px;
-  color: var(--background);
-  background: var(--blue);
+  padding: 1.5rem 6.5rem;
+  color: #efefef;
+  background: #115def;
   flex-direction: row-reverse;
 }
   
 .logo {
   display: flex;
   flex-direction: column;
-  font-family: 'Sora', Poppins, ;
+  font-family: 'Sora', Poppins;
 }
   
 .small {
@@ -32,6 +32,13 @@
   gap: 8px;
   text-decoration: none;
   font-weight: 600;
-  color: #c6c6c6;
+  color: #efefef;
   margin-top: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  nav {
+    padding: 1rem;
+  }
 }
