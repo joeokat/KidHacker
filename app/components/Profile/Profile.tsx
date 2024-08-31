@@ -1,9 +1,9 @@
-import "../styles/Profile.module.css";
+import "./Profile.css";
 import Image from 'next/image'
 
 //Components
-import SocialLinks from '../components/SocialLinks'
-import EmailBtn from '../components/EmailBtn'
+import SocialLinks from '../Social/SocialLinks'
+import EmailBtn from '../Buttons/EmailBtn'
 
 
 export default function Profile() {
@@ -18,10 +18,10 @@ export default function Profile() {
       />
 
       <span className='profile-name'> 
-        <h1>Joshua O. Ofosu</h1> <p className='pill-rating'> 4.9</p> 
+        <h2>Joshua O. Ofosu</h2> <p className='pill-rating'> 4.9</p> 
       </span>
 
-      <p>UX Engineer</p>
+      <p className="job-title">UX Designer</p>
       
       <SocialLinks />
       

@@ -1,0 +1,119 @@
+:root {
+    --dark: #101010,
+    --white: #fafafa,
+    --blue: #115def,
+    --green: #48DF8E,
+    --red: #F5525B,
+    --gold: #ffbb1c,
+    --violet: #7E4394,
+    --ash: #a9a9a9,
+    --assh: #dcdcdc,
+    --text-color: #212121
+    --text-gray: #383B49,
+    --background: #efefef
+}
+* {
+    box-sizing: border-box;
+  }
+body {
+    color: var(--text-color);
+    background: var(--background);
+    font-family: -apple-system, "Poppins", "Roboto", sans-serif;
+}
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+main {
+    margin: auto;
+    min-width: 320px;
+    /* max-height: 780px; */
+}
+
+/* MOBILE RESPONSIVE VIEW */
+@media only screen and (max-width: 600px) {
+    .nav--container {
+      padding: 0 24px;
+    }
+  
+    /* .cta-btn {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 32px;
+    }
+  
+    .hero--section {
+      padding: 0 15px;
+      width: 100%;
+    }
+  
+    .service--container {
+      padding: 0 15px;
+    }
+  
+    .service--row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .service--name {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    .portfolio--container {
+      /* width: 100%; */
+      /* padding: 0 15px;
+    }
+  
+    .portfolio--row {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+  .explore {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+  }
+  
+    .pricing--plans {
+      padding: 0 15px;
+      margin-bottom: 30px;
+    } */
+  
+    .hire--me{
+      margin-bottom: 0px;
+    } */
+  
+    /* .work--paragraph {
+      text-align: center;
+      padding: 0 1rem;
+    }
+  
+    .work--plan {
+      margin-bottom: 100px;
+    } */
+  
+    .card--container {
+      padding: 0 15px;
+      margin-bottom: 30px;
+      position: relative;
+      /* left: 15px; */
+      bottom: 80px;
+      /* width: 100%; */
+    }
+  
+    /* .footer--container {
+      height: 64px;
+      border-radius: 0px 0px 10px 10px;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+      background: #161619;
+    } */
+  }
+  

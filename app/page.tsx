@@ -1,5 +1,7 @@
-import Profile from "./components/Profile";
-import Nav from "./components/Nav";
+
+import Nav from "./components/Nav/Nav";
+import Profile from "./components/Profile/Profile";
+
 
 export default function Home() {
   return (

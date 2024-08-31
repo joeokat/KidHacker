@@ -1,4 +1,4 @@
-import '../styles/EmailBtn.module.css';
+import './EmailBtn.css';
 import Image from 'next/image';
 
 export default function EmailBtn() {

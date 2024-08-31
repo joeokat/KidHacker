@@ -1,4 +1,4 @@
-import "../styles/SocialLink.module.css";
+import "./SocialLink.css";
 import Image from 'next/image';
 
 
