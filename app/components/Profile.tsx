@@ -1,4 +1,4 @@
-import "./styles/Profile.module.css";
+import "../styles/Profile.module.css";
 import Image from 'next/image'
 
 //Components
@@ -14,16 +14,16 @@ export default function Profile() {
         alt="Profile Picture"
         width={100}
         height={100}
-        className="rounded-full mb-3"
+        className="profile-image"
       />
 
-      <span className='flex place-items-center gap-2'> 
-        <h1>Joshua O. Ofosu</h1> <p className='pill rating'> 4.9</p> 
+      <span className='profile-name'> 
+        <h1>Joshua O. Ofosu</h1> <p className='pill-rating'> 4.9</p> 
       </span>
 
       <p>UX Engineer</p>
       
-      {/* <SocialLinks /> */}
+      <SocialLinks />
       
       <p>I craft mobile apps and lightning-fast websites that drive business growth</p>
      
