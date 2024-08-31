@@ -21,7 +21,7 @@ export default function Profile() {
 
       <p>UX Engineer</p>
       
-      <SocialLinks />
+      {/* <SocialLinks /> */}
       
       <p>I craft mobile apps and lightning-fast websites that drive business growth</p>
      

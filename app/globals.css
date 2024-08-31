@@ -7,13 +7,13 @@
 body {
   @apply bg-background text-gray-500 m-8;
 }
-
-h1, h2 {
-  @apply font-bold text-primary text-lg;
-}
 main {
   @apply max-w-lg mx-auto my-12 px-8;
 }
+h1, h2 {
+  @apply font-bold text-primary text-lg;
+}
+
 
 /*NAV STYLES*/
 
@@ -84,5 +84,5 @@ button:hover {
 }
 
 .socials{
-  @apply p-3 bg-mywhite border rounded-full;
+  @apply p-2 bg-mywhite border rounded-full;
 }
