@@ -1,5 +1,5 @@
 import React from "react";
-import star from "../assets/star.svg";
+import star from "../asset/star.svg";
 import fork from "../assets/fork.svg";
 
 export default function Nav() {
