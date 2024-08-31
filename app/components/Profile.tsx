@@ -1,4 +1,6 @@
+import "./styles/Profile.module.css";
 import Image from 'next/image'
+
 //Components
 import SocialLinks from '../components/SocialLinks'
 import EmailBtn from '../components/EmailBtn'

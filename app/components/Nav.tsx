@@ -1,4 +1,4 @@
-
+import "./styles/Nav.module.css";
 
 export default function Nav(){
   return (
